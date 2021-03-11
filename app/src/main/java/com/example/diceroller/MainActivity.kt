@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         rollButton.text = "Lets Roll!!"
 
         rollButton.setOnClickListener{
-            Toast.makeText(this, "button clicked" ,Toast.LENGTH_SHORT)
+            Toast.makeText(this, "button clicked" ,Toast.LENGTH_SHORT).show()
         }
     }
 }
